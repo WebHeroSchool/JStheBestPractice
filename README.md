@@ -1,10 +1,12 @@
-# JStheBestPractice
+
 # JavaScript Best Practice
 ---
 ### 1. Избегайте Глобальных Переменных
+
 Сведите к минимуму использование глобальных переменных.
 Сюда входят все типы данных, объекты и функции.
 Вместо этого используйте локальные переменные.
+
  + good example
 ```
 function nameFunction() {
@@ -27,7 +29,7 @@ function nameFunction() {
 + Используйте [] вместо new Array()
 + Используйте function() {} вместо new Function()
 
-example
++ example
 ```
 var x1 = {}; // new object
 var x2 = ""; // new primitive string
@@ -53,6 +55,7 @@ setInterval(someFunction, 3000);
 ```
 
 ### 4. Длинный список переменных? Опустите Ключевое слово "Var" и используйте вместо него запятые
+
  + good example
 ```
 var someItem = 'some string',
